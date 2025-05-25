@@ -1,0 +1,182 @@
+on_actions = {
+    on_startup = {
+	    effect = {
+			    every_country = {
+				limit = {
+					OR = {
+						tag = JAP
+					}
+				}
+				army_experience = 100
+				air_experience = 50
+			    }
+            every_country = { 
+            add_ideas = peace_training
+			}
+            OBG = {
+            add_ideas = NEGR
+            }
+		CHI = {
+			load_focus_tree = china_nationalist_focus_2
+            remove_ideas = CHI_army_corruption_1
+			add_ideas = CHI_Never_Surrender
+			add_ideas = CHI_army_corruption_1
+			add_ideas = CHI_Cooked_Staff
+			}
+        OBG = {
+		annex_country = {
+            target = GER
+            transfer_troops = no
+            }
+		annex_country = {
+            target = SOV
+            transfer_troops = no
+            }
+		annex_country = {
+            target = SPR
+            transfer_troops = no
+            }
+		annex_country = {
+            target = BRA
+            transfer_troops = no
+            }
+		annex_country = {
+            target = ITA
+            transfer_troops = no
+            }
+		annex_country = {
+            target = POL
+            transfer_troops = no
+            }
+		annex_country = {
+            target = SOV
+            transfer_troops = no
+            }
+		annex_country = {
+            target = ROM
+            transfer_troops = no
+            }
+		annex_country = {
+            target = HUN
+            transfer_troops = no
+            }
+		annex_country = {
+            target = CAN
+            transfer_troops = no
+            }
+		annex_country = {
+            target = SAF
+            transfer_troops = no
+            }
+		annex_country = {
+            target = YUG
+            transfer_troops = no
+            }
+		annex_country = {
+            target = TUR
+            transfer_troops = no
+            }
+		annex_country = {
+            target = PER
+            transfer_troops = no
+            }
+		annex_country = {
+            target = FIN
+            transfer_troops = no
+            }
+		annex_country = {
+            target = NOR
+            transfer_troops = no
+            }
+		annex_country = {
+            target = DEN
+            transfer_troops = no
+            }
+		annex_country = {
+            target = ICE
+            transfer_troops = no
+            }
+		annex_country = {
+            target = HOL
+            transfer_troops = no
+            }
+		annex_country = {
+            target = BEL
+            transfer_troops = no
+            }
+		annex_country = {
+            target = LUX
+            transfer_troops = no
+            }
+		annex_country = {
+            target = SWI
+            transfer_troops = no
+            }
+		annex_country = {
+            target = FRA
+            transfer_troops = no
+            }
+		annex_country = {
+            target = CZE
+            transfer_troops = no
+            }
+		annex_country = {
+            target = ALB
+            transfer_troops = no
+            }
+		annex_country = {
+            target = BUL
+            transfer_troops = no
+            }
+		annex_country = {
+            target = GRE
+            transfer_troops = no
+            }
+		annex_country = {
+            target = COG
+            transfer_troops = no
+            }
+		annex_country = {
+            target = SWE
+            transfer_troops = no
+            }
+		annex_country = {
+            target = LIT
+            transfer_troops = no
+            }
+		annex_country = {
+            target = LAT
+            transfer_troops = no
+            }
+        annex_country = {
+            target = EST
+            transfer_troops = no
+            }
+		annex_country = {
+            target = ENG
+            transfer_troops = no
+            }
+		annex_country = {
+            target = IRE
+            transfer_troops = no
+            }
+		annex_country = {
+            target = AUS
+            transfer_troops = no
+            }
+		annex_country = {
+            target = ETH
+            transfer_troops = no
+            }
+		annex_country = {
+            target = IRQ
+            transfer_troops = no
+            }
+		}
+		RAJ = {
+		    transfer_state = 320
+			transfer_state = 422
+		}
+		}
+	}
+}

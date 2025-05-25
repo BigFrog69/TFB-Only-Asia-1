@@ -1,0 +1,345 @@
+ideas = {
+
+	country = {
+		
+		NEGR = { 
+
+			allowed = {
+				always = no
+			}
+
+			cancel = {
+				has_war = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+                consumer_goods_factor = 10.0
+			}
+		}
+		
+        CHI_army_corruption_1 = {
+
+			picture = chi_army_corruption
+
+			name = CHI_army_corruption
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				is_ai = yes
+				surrender_progress > 0.5 
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.35
+				army_defence_factor = -0.35
+				mobilization_speed = -0.3
+				land_bunker_effectiveness_factor = -0.5
+				coastal_bunker_effectiveness_factor = -0.5
+			}
+
+		}
+
+		CHI_army_corruption_2 = {
+
+			picture = chi_army_corruption2
+		
+			name = CHI_army_corruption
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				is_ai = yes
+				surrender_progress > 0.5 
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.30
+				army_defence_factor = -0.30
+				mobilization_speed = -0.30
+				land_bunker_effectiveness_factor = -0.45
+				coastal_bunker_effectiveness_factor = -0.45
+			}
+
+		}
+		
+		CHI_army_corruption_3 = {
+
+			picture = chi_army_corruption3
+		
+			name = CHI_army_corruption
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				is_ai = yes
+				surrender_progress > 0.5 
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
+				mobilization_speed = -0.25
+				land_bunker_effectiveness_factor = -0.40
+				coastal_bunker_effectiveness_factor = -0.40
+			}
+
+		}
+		
+		CHI_army_corruption_4 = {
+
+			picture = chi_army_corruption3
+		
+			name = CHI_army_corruption
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				is_ai = yes
+				surrender_progress > 0.5 
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.20
+				army_defence_factor = -0.20
+				mobilization_speed = -0.20
+				land_bunker_effectiveness_factor = -0.35
+				coastal_bunker_effectiveness_factor = -0.35
+			}
+
+		}
+		
+		CHI_army_corruption_5 = {
+
+			picture = chi_army_corruption3
+		
+			name = CHI_army_corruption
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				is_ai = yes
+				surrender_progress > 0.5 
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+				mobilization_speed = -0.15
+				land_bunker_effectiveness_factor = -0.30
+				coastal_bunker_effectiveness_factor = -0.30
+			}
+
+		}
+		
+		CHI_army_corruption_6 = {
+
+			picture = chi_army_corruption3
+		
+			name = CHI_army_corruption
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				is_ai = yes
+				surrender_progress > 0.5 
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.10
+				army_defence_factor = -0.10
+				mobilization_speed = -0.10
+				land_bunker_effectiveness_factor = -0.25
+				coastal_bunker_effectiveness_factor = -0.25
+			}
+
+		}
+		
+		CHI_army_corruption_7 = {
+
+			picture = chi_army_corruption3
+		
+			name = CHI_army_corruption
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			cancel = {
+				is_ai = yes
+				surrender_progress > 0.5 
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+				mobilization_speed = -0.05
+				land_bunker_effectiveness_factor = -0.2
+				coastal_bunker_effectiveness_factor = -0.2
+			}
+
+		}
+		
+		CHI_determination = {
+
+			picture = chi_chinese_support
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+				army_morale_factor = 0.1
+				supply_consumption_factor = -0.20
+				out_of_supply_factor = -0.25
+				resistance_target_on_our_occupied_states = 0.1
+			}
+		}
+		
+		CHI_determination2 = {
+
+			picture = chi_chinese_support
+			
+			name = CHI_determination
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = 0.02
+				army_morale_factor = 0.2
+				supply_consumption_factor = -0.5
+				out_of_supply_factor = -0.5
+				pocket_penalty = -0.25
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.15
+				dig_in_speed_factor = 0.25
+				resistance_target_on_our_occupied_states = 0.25
+				#surrender_limit = 0.1 
+			}
+		}
+		
+		CHI_Never_Surrender = {
+
+			picture = BEL_the_kings_surrender
+		
+			name = "Never Surrender!"
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+
+			removal_cost = -1
+			
+			modifier = {
+            surrender_limit = 0.25
+			max_surrender_limit_offset = 0.25
+			war_support_factor = 0.25
+			}
+
+		}
+		
+		CHI_Cooked_Staff = {
+
+			picture = generic_neglected_military
+		
+			name = "Cooked Pre-War General Staff"
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			allowed = {
+			    has_war = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+            experience_gain_army_factor = -1
+			}
+
+		}
+	}
+}
