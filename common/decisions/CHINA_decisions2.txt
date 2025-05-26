@@ -11,7 +11,7 @@ CHI_army_reform = {
 
 		available = {
 			has_army_experience > 99
-			has_completed_focus = CHI_army_reform
+			has_completed_focus = CHR_army_reform
 		}
 
 		cost = 0
@@ -22,61 +22,61 @@ CHI_army_reform = {
 
 		visible = {
 			OR = {
-				has_idea = CHI_army_corruption_1
-				has_idea = CHI_army_corruption_2
-				has_idea = CHI_army_corruption_3
-				has_idea = CHI_army_corruption_4
-				has_idea = CHI_army_corruption_5
-				has_idea = CHI_army_corruption_6
-				has_idea = CHI_army_corruption_7
+				has_idea = CHR_army_corruption_1
+				has_idea = CHR_army_corruption_2
+				has_idea = CHR_army_corruption_3
+				has_idea = CHR_army_corruption_4
+				has_idea = CHR_army_corruption_5
+				has_idea = CHR_army_corruption_6
+				has_idea = CHR_army_corruption_7
 			}
 		}
 		remove_effect = {
 			if = {
-				limit = { has_idea = CHI_army_corruption_1 }
+				limit = { has_idea = CHR_army_corruption_1 }
 				swap_ideas = {
-					remove_idea = CHI_army_corruption_1
-					add_idea = CHI_army_corruption_2
+					remove_idea = CHR_army_corruption_1
+					add_idea = CHR_army_corruption_2
 				}
 			}
 			else_if = {
-				limit = { has_idea = CHI_army_corruption_2 }
+				limit = { has_idea = CHR_army_corruption_2 }
 				swap_ideas = {
-					remove_idea = CHI_army_corruption_2
-					add_idea = CHI_army_corruption_3
+					remove_idea = CHR_army_corruption_2
+					add_idea = CHR_army_corruption_3
 				}
 			}
 			else_if = {
-				limit = { has_idea = CHI_army_corruption_3 }
+				limit = { has_idea = CHR_army_corruption_3 }
 				swap_ideas = {
-					remove_idea = CHI_army_corruption_3
-					add_idea = CHI_army_corruption_4
+					remove_idea = CHR_army_corruption_3
+					add_idea = CHR_army_corruption_4
 				}
 			}
 			else_if = {
-				limit = { has_idea = CHI_army_corruption_4 }
+				limit = { has_idea = CHR_army_corruption_4 }
 				swap_ideas = {
-					remove_idea = CHI_army_corruption_4
-					add_idea = CHI_army_corruption_5
+					remove_idea = CHR_army_corruption_4
+					add_idea = CHR_army_corruption_5
 				}
 			}
 			else_if = {
-				limit = { has_idea = CHI_army_corruption_5 }
+				limit = { has_idea = CHR_army_corruption_5 }
 				swap_ideas = {
-					remove_idea = CHI_army_corruption_5
-					add_idea = CHI_army_corruption_6
+					remove_idea = CHR_army_corruption_5
+					add_idea = CHR_army_corruption_6
 				}
 			}
 			else_if = {
-				limit = { has_idea = CHI_army_corruption_6 }
+				limit = { has_idea = CHR_army_corruption_6 }
                 swap_ideas = {
-					remove_idea = CHI_army_corruption_6
-					add_idea = CHI_army_corruption_7
+					remove_idea = CHR_army_corruption_6
+					add_idea = CHR_army_corruption_7
 				}
 			}
 			else_if = {
-				limit = { has_idea = CHI_army_corruption_7 }
-                remove_ideas = CHI_army_corruption_7
+				limit = { has_idea = CHR_army_corruption_7 }
+                remove_ideas = CHR_army_corruption_7
 			}
 		}
 		complete_effect = {
@@ -88,30 +88,13 @@ CHI_army_reform = {
 		icon = generic_army_support
 		available = {
 			has_army_experience > 199
-			has_idea = CHI_incompetent_officers
-			if = {
-				limit = { has_idea = CHI_army_corruption_1 }
-				NOT = { has_idea = CHI_army_corruption_1 }
-			}
-
-			if = {
-				limit = { has_idea = CHI_army_corruption_2 }
-				NOT = { has_idea = CHI_army_corruption_2 }
-			}
-
-			if = {
-				limit = { has_idea = CHI_army_corruption_3 }
-				NOT = { has_idea = CHI_army_corruption_3 }
-			}
-
-			if = {
-				limit = {
-					NOT = { has_idea = CHI_army_corruption_1 }
-					NOT = { has_idea = CHI_army_corruption_2 }
-					NOT = { has_idea = CHI_army_corruption_3 }
-				}
-				NOT = { has_idea = CHI_army_corruption_3 }
-			}
+					NOT = { has_idea = CHR_army_corruption_1 }
+					NOT = { has_idea = CHR_army_corruption_2 }
+					NOT = { has_idea = CHR_army_corruption_3 }
+					NOT = { has_idea = CHR_army_corruption_4 }
+					NOT = { has_idea = CHR_army_corruption_5 }
+					NOT = { has_idea = CHR_army_corruption_6 }
+					NOT = { has_idea = CHR_army_corruption_7 }
 		}
 
 		cost = 0
@@ -614,14 +597,6 @@ war_measures = {
 					division = "division_template = \"Juntuan\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
 					owner = CHI
 				}
-				create_unit = {
-					division = "division_template = \"Juntuan\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
-					owner = CHI
-				}
-				create_unit = {
-					division = "division_template = \"Juntuan\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
-					owner = CHI
-				}
 			}
 			add_ideas = CHI_wave1
 		}
@@ -725,14 +700,6 @@ war_measures = {
 					division = "division_template = \"Juntuan\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
 					owner = CHI
 				}
-				create_unit = {
-					division = "division_template = \"Juntuan\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
-					owner = CHI
-				}
-				create_unit = {
-					division = "division_template = \"Juntuan\" start_experience_factor = 0.1 start_equipment_factor = 1.0"
-					owner = CHI
-				}
 			}
 			add_ideas = CHI_wave2
 		}
@@ -798,14 +765,6 @@ war_measures = {
 						is_controlled_by = CHI
 					}
 					
-				}
-				create_unit = {
-					division = "division_template = \"Juntuan\" force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } } start_experience_factor = 0.1 start_equipment_factor = 1.0"
-					owner = CHI
-				}
-				create_unit = {
-					division = "division_template = \"Juntuan\" force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } } start_experience_factor = 0.1 start_equipment_factor = 1.0"
-					owner = CHI
 				}
 				create_unit = {
 					division = "division_template = \"Juntuan\" force_equipment_variants = { infantry_equipment_0 = { owner = \"CHI\" } } start_experience_factor = 0.1 start_equipment_factor = 1.0"

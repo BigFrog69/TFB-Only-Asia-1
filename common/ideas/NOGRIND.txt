@@ -21,7 +21,7 @@ ideas = {
 			}
 		}
 		
-        CHI_army_corruption_1 = {
+        CHR_army_corruption_1 = {
 
 			picture = chi_army_corruption
 
@@ -48,11 +48,12 @@ ideas = {
 				mobilization_speed = -0.3
 				land_bunker_effectiveness_factor = -0.5
 				coastal_bunker_effectiveness_factor = -0.5
+				army_speed_factor = -0.1
 			}
 
 		}
 
-		CHI_army_corruption_2 = {
+		CHR_army_corruption_2 = {
 
 			picture = chi_army_corruption2
 		
@@ -79,11 +80,12 @@ ideas = {
 				mobilization_speed = -0.30
 				land_bunker_effectiveness_factor = -0.5
 				coastal_bunker_effectiveness_factor = -0.5
+				army_speed_factor = -0.1
 			}
 
 		}
 		
-		CHI_army_corruption_3 = {
+		CHR_army_corruption_3 = {
 
 			picture = chi_army_corruption3
 		
@@ -110,11 +112,12 @@ ideas = {
 				mobilization_speed = -0.25
 				land_bunker_effectiveness_factor = -0.5
 				coastal_bunker_effectiveness_factor = -0.5
+				army_speed_factor = -0.1
 			}
 
 		}
 		
-		CHI_army_corruption_4 = {
+		CHR_army_corruption_4 = {
 
 			picture = chi_army_corruption3
 		
@@ -141,11 +144,12 @@ ideas = {
 				mobilization_speed = -0.20
 				land_bunker_effectiveness_factor = -0.4
 				coastal_bunker_effectiveness_factor = -0.4
+				army_speed_factor = -0.1
 			}
 
 		}
 		
-		CHI_army_corruption_5 = {
+		CHR_army_corruption_5 = {
 
 			picture = chi_army_corruption3
 		
@@ -172,11 +176,12 @@ ideas = {
 				mobilization_speed = -0.15
 				land_bunker_effectiveness_factor = -0.4
 				coastal_bunker_effectiveness_factor = -0.4
+				army_speed_factor = -0.1
 			}
 
 		}
 		
-		CHI_army_corruption_6 = {
+		CHR_army_corruption_6 = {
 
 			picture = chi_army_corruption3
 		
@@ -203,11 +208,12 @@ ideas = {
 				mobilization_speed = -0.10
 				land_bunker_effectiveness_factor = -0.3
 				coastal_bunker_effectiveness_factor = -0.3
+				army_speed_factor = -0.1
 			}
 
 		}
 		
-		CHI_army_corruption_7 = {
+		CHR_army_corruption_7 = {
 
 			picture = chi_army_corruption3
 		
@@ -234,6 +240,7 @@ ideas = {
 				mobilization_speed = -0.05
 				land_bunker_effectiveness_factor = -0.3
 				coastal_bunker_effectiveness_factor = -0.3
+				army_speed_factor = -0.1
 			}
 
 		}
@@ -330,7 +337,7 @@ ideas = {
 				always = yes
 			}
 
-			allowed = {
+			cancel = {
 			    has_war = yes
 			}
 

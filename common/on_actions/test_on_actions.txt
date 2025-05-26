@@ -20,7 +20,7 @@ on_actions = {
 			load_focus_tree = china_nationalist_focus_2
             remove_ideas = CHI_army_corruption_1
 			add_ideas = CHI_Never_Surrender
-			add_ideas = CHI_army_corruption_1
+			add_ideas = CHR_army_corruption_1
 			add_ideas = CHI_Cooked_Staff
 			}
         OBG = {
